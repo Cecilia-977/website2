@@ -1,0 +1,94 @@
+*{
+    /* font-size: 100%; */
+    margin: 0;
+    line-height: 1;
+} 
+.banner {
+    height: 200px;
+    background-image: url(media/pianokeys.webp);
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+body {
+    background-color: #c9cba3 ;
+    color: #472d30;
+    font-family: "Noto Sans" "Nunito Sans";
+    font-size: large;
+    line-height: 2;
+    margin: 18px;
+}
+/* H1 should be in dancing script */
+.title {
+    color: #472d30;
+    font-family: "Dancing Script" "Noto Sans";
+    font-size: 50px;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    border: 5px solid ffe1a8;
+    padding: 30px;
+    
+}
+.container {
+    height: 600px;
+    max-width: 1500px;
+    margin: 16px;
+}
+h2 {
+    background-color: #ffe1a8;
+    color: #472d30;
+    font-family: "Noto Sans" "Nunito Sans";
+    font-size: 30px;
+    font-weight: 700;
+    padding: 40px;
+    border-right: 5px solid #e26d5c;
+    text-align: right;
+    width: 600px;
+    margin: 30px;
+}
+h3 {
+    background-color: #ffe1a8;
+    color: #472d30;
+    font-family: "Noto Sans" "Nunito Sans";
+    font-size: 30px;
+    font-weight: 700;
+    margin: 16px;
+    padding: 50px;
+    border-left: 5px solid #e26d5c;
+    text-align: left;
+    width: 600px;
+}
+p {
+    font-size: 30px;
+    width: 600px;
+    line-height: 1;
+    /* border-bottom: 5px solid #ffe1a8; */
+}
+a {
+    text-decoration: none;
+    color: #e26d5c;
+    font-size: 20;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: maroon;
+
+}
+ol {
+    color: #e26d5c;
+    font-size: 26px;
+}
+ul { 
+    color: #e26d5c;
+    font-size: 26px;
+}
+img {
+    border: 10px solid #aeb76e;
+    margin: 16px;   
+}
